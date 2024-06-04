@@ -90,9 +90,8 @@ icon={polaroid}/>
 <div className={styles.text}>
 
     <div className={styles.stepHeader}>מקצועיות</div>
-    <div className={styles.section}>תחסכו מכם טעויות קריטיות והמון כסף.<br/>
-יועץ משכנתאות מנוסה מביא עימו ידע רחב ועשיר בתחום המשכנתאות, הוא מכיר היטב את כל החוקים, התנאים והמגמות בשוק המשכנתאות 
-המשתנה תדיר. היועץ יתכנן עבורך ויעזור לך לקבל את המשכנתא המתאימה בדיוק לצרכיך וליכולותיך הכלכליות</div>
+    <div className={styles.section}>צילומים מקצועיים משדרים מקצועיות ואמינות, התמונות יוצרות רושם ראשוני חיובי. 
+צילומי תדמית איכותיים יכולים לסייע לבידול העסק ולהבליט אותו בין המתחרים.</div>
 </div>
 </div>
 {/* חץ לשלב הבא */}
@@ -102,9 +101,8 @@ icon={polaroid}/>
 <div className={styles.text}>
 
  
-<div className={styles.stepHeader}>תדמית עסקית</div>
-    <div className={styles.section}>הליך לקיחת משכנתא הינו מורכב עבור מי שאינו חי את התחום וכרוך בהרבה בירוקרטיה וניירת. יועץ המשכנתאות יבצע זאת עבורכם, יקצר את 
-זמני התהליך וימנע מכם כאב ראש</div>
+<div className={styles.stepHeader}>מיתוג</div>
+    <div className={styles.section}>תמונות מקצועיות יכולות לסייע ביצירת זהות מיתוגית אחידה ומקצועית, שמשדרת את הערכים והמסרים שהעסק רוצה להעביר.</div>
 </div>
 <div className={styles.icons}>
 <Player ref={playerRef2} delay={500} size="100%" onComplete={handleComplete2}
@@ -121,24 +119,13 @@ icon={camera}/>
 </div>
 <div className={styles.text}>
 
-    <div className={styles.stepHeader}>תדמית דיגיטלית</div>
-    <div className={styles.section}>כלקוח בודד מול המערכת הבנקאית הסיכויים שלנו להוזלה משמעותית של המשכנתא נמוכים. 
-ליועץ משכנתאות מקצועי ומנוסה יש את הידע והקשרים הנדרשים כדי לנהל עבורך משא ומתן תקיף ולהשיג את התנאים הטובים ביותר</div>
+    <div className={styles.stepHeader}>תקשורות עם הלקוחות</div>
+    <div className={styles.section}>צילומי תדמית מאפשרים ללקוחות לראות מי עומד מאחורי העסק,
+מאחורי המוצרים שהם רכשו, 
+מה שמקנה תחושה אישית וחמה יותר ללקוחות ומגביר את האמון.</div>
 </div>
 </div>
-<div className={styles.step}>
 
-<div className={styles.text}>
-
- 
-<div className={styles.stepHeader}>אסתטיות</div>
-    <div className={styles.section}>יועץ המשכנתאות יאפיין במקצועיות את מצבך הפיננסי ויבנה עבורך משכנתא ייחודית המתאימה לצרכים וליכולות שלך</div>
-</div>
-<div className={styles.icons}>
-<Player ref={playerRef4} delay={500} size="100%" onComplete={handleComplete4}
-icon={slider}/>
-</div>
-</div>
 
 
 <CustomButton text="ולריה, בואי נדבר" message="היי ולריה אני אשמח לשמוע עוד בנוגע לצילומי תדמית אצלך"/>
