@@ -1,7 +1,6 @@
 import styles from "./NewImageGrid.module.css"
 
 
-
 import grid3 from "../../videos/ולריה רמידובסקי סרטוני מותגים 3.mp4"
 
 import grid5 from "../../videos/ולריה רמידובסקי סרטוני מותגים 5.mp4"
@@ -64,43 +63,43 @@ const [zoom,setZoom]=useState(false)
 <div className={styles.description}>גללו למטה והתרשמו</div>
     <div className={styles.container}>
     <div className={styles.row2}>
-    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid16} type="video/mp4" />
                 </video>
-                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid15} type="video/mp4" />
                 </video>
-    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid3} type="video/mp4" />
                 </video>
-                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid14} type="video/mp4" />
                 </video>
-                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid5} type="video/mp4" />
                 </video>
-                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid6} type="video/mp4" />
                 </video>
    
     </div>
     <div className={styles.row2}>
-    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid7} type="video/mp4" />
                 </video>
-                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid8} type="video/mp4" />
                 </video>
-    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid9} type="video/mp4" />
                 </video>
-                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid10} type="video/mp4" />
                 </video>
-                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid11} type="video/mp4" />
                 </video>
-                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  muted playsInline controls alt="ולריה רמידובסקי UGC">
                     <source src={grid12} type="video/mp4" />
                 </video>
         

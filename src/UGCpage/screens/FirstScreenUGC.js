@@ -7,12 +7,10 @@ const FirstScreenUGC=()=>{
 
 
 return <>
- <>
 <div className={styles.background}>
 <div className={styles.description}>המותג שלך זקוק <div className={styles.bold}>לאותנטיות</div></div>
 <div className={styles.center}><img className={styles.image} src={valeria}/></div>
 </div>
-</>
 </>
 
 

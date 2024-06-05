@@ -20,7 +20,7 @@ return <>
 <ThirdScreenHome/>
 <SecondScreenSocial/>
 {/* <ForthScreenSocial/> */}
-<BasicAccordion/>
+
 <ByMe/>
 </div>
 </>

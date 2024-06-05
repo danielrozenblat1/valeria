@@ -1,6 +1,6 @@
 import styles from "./FirstScreenSocial.module.css"
 import {useEffect,useRef} from "react"
-import valeria from "../../images/ולריה רמידובסקי סושיאל מדיה.png"
+import valeria from "../../images/ולריה רמידובסקי ניהול סושיאל.png"
 
 const FirstScreenSocial=()=>{
   
