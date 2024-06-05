@@ -74,11 +74,12 @@ const NavBar = () => {
             &times;
           </div>
           <ul>
-    
+     
             <li><NavLink  className={styles.navLink}  onClick={closeMenu} to="/"><div>עמוד הבית</div></NavLink></li>
+            <li><NavLink className={styles.navLink}  onClick={closeMenu} to="/צילום"><div >צילום</div></NavLink></li>
             <li><NavLink className={styles.navLink} onClick={closeMenu} to="/UGC"><div >מותגים - UGC</div></NavLink></li>
             <li><NavLink className={styles.navLink} onClick={closeMenu} to="/ניהול סושיאל מדיה"><div >ניהול סושיאל</div></NavLink></li>
-            <li><NavLink className={styles.navLink}  onClick={closeMenu} to="/צילום"><div >צילום</div></NavLink></li>
+           
             <div className={styles.logo}>
             <img className={styles.navImage} src={logo} alt="ולריה רמידובסקי לוגו"/>
           </div>

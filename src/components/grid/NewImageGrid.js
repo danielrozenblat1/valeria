@@ -64,43 +64,43 @@ const [zoom,setZoom]=useState(false)
 <div className={styles.description}>גללו למטה והתרשמו</div>
     <div className={styles.container}>
     <div className={styles.row2}>
-    <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid16} type="video/mp4" />
                 </video>
-                <video className={styles.image1} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid15} type="video/mp4" />
                 </video>
-    <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid3} type="video/mp4" />
                 </video>
-                <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid14} type="video/mp4" />
                 </video>
-                <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid5} type="video/mp4" />
                 </video>
-                <video className={styles.image1} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid6} type="video/mp4" />
                 </video>
    
     </div>
     <div className={styles.row2}>
-    <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid7} type="video/mp4" />
                 </video>
-                <video className={styles.image1} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid8} type="video/mp4" />
                 </video>
-    <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+    <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid9} type="video/mp4" />
                 </video>
-                <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid10} type="video/mp4" />
                 </video>
-                <video className={styles.image3} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image3}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid11} type="video/mp4" />
                 </video>
-                <video className={styles.image1} autoPlay loop muted alt="ולריה רמידובסקי UGC">
+                <video className={styles.image1}  loop muted alt="ולריה רמידובסקי UGC">
                     <source src={grid12} type="video/mp4" />
                 </video>
         
@@ -115,7 +115,7 @@ const [zoom,setZoom]=useState(false)
   
     
     </div>
-    <CustomButton text="לחץ כאן לעוד פרטים"/>
+    <CustomButton text="לחץ כאן לעוד פרטים" message="היי ולריה , אשמח לראות עוד סרטוני UGC"/>
     </>
     }
     export default NewImagesGrid

@@ -31,7 +31,7 @@ const ForthPageHome=()=>{
         speed: 500,
         autoplay: true, // Enable autoplay
         autoplaySpeed: 2500,
-        slidesToShow: window.innerWidth < 450 ? 2 : window.innerWidth < 650 ? 3 : 4,
+        slidesToShow: window.innerWidth < 450 ? 5 : window.innerWidth < 650 ? 6 : 8,
         slidesToScroll:1,
   
       };
