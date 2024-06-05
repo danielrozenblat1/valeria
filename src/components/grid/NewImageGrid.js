@@ -14,7 +14,7 @@ import grid12 from "../../videos/ולריה רמידובסקי סרטוני מו
 import grid15 from "../../videos/ולריה רמידובסקי סרטוני מותגים 15.mp4"
 import grid16 from "../../videos/ולריה רמידובסקי סרטוני מותגים 16.mp4"
  import grid14 from "../../videos/ולריה רמידובסקי סרטוני מותגים 14.mp4"
-
+ import grid17 from "../../videos/ולריה סרטוני מותגים 20.mp4"
 import { useEffect, useState } from "react"
 import ScrollReveal from "scrollreveal"
 import CustomButton from "../button/CustomButton"
@@ -100,7 +100,7 @@ const [zoom,setZoom]=useState(false)
                     <source src={grid11} type="video/mp4" />
                 </video>
                 <video className={styles.image1}  muted playsInline controls alt="ולריה רמידובסקי UGC">
-                    <source src={grid12} type="video/mp4" />
+                    <source src={grid17} type="video/mp4" />
                 </video>
         
     </div>
