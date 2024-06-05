@@ -3,6 +3,14 @@ import styles from './CustomButton.module.css';
 const CustomButton = (props) => {
 
   const handleClick = () => {
+
+
+    if(props.href){
+
+window.open(props.href);
+return ;
+
+    }
     const phoneNumber = "+972584242199";
     // Set the message content
     const message =props.message || "היי ולריה , אשמח לשמוע על..";

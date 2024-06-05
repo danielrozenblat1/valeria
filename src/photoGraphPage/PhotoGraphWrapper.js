@@ -6,6 +6,7 @@ import FifthPageHome from "../homePage/screens/FifthPageHome"
 import ThirdScreenPhoto from "./screens/ThirdScreen"
 import BasicAccordion from "../components/Akordion/AkordionPhoto"
 import ByMe from "../components/ByMe/ByMe"
+import ForthScreenPhoto from "./screens/ForthScreenPhoto"
 
 
 const PhotoGraphWrapper=()=>{
@@ -18,6 +19,7 @@ return <>
 <FirstScreenPhoto/>
 <FifthPageHome title="יש צילומי סטודיו" title2="ויש צילומי חוץ"/>
 <ThirdScreenPhoto/>
+<ForthScreenPhoto/>
 <BasicAccordion/>
 <ByMe/>
 </div>

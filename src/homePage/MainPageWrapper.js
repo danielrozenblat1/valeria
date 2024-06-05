@@ -7,6 +7,7 @@ import ThirdScreenHome from "./screens/ThirdScreen"
 import ForthPageHome from "./screens/ForthPageHome"
 import FifthPageHome from "./screens/FifthPageHome"
 import ByMe from "../components/ByMe/ByMe"
+import ToInstagram from "./screens/ToInstagram"
 const MainPageWrapper=()=>{
     const [scrolled, setScrolled] = useState(false);
     const handleScroll = () => {
@@ -30,6 +31,7 @@ return <>
 <SecondScreenHome/>
 <ThirdScreenHome/>
 <ForthPageHome/>
+<ToInstagram/>
 <ByMe/>
 </div>
 </>

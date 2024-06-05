@@ -112,9 +112,10 @@ const [zoom,setZoom]=useState(false)
 
     </div> */}
   
-    
+
     </div>
-    <CustomButton text="לחץ כאן לעוד פרטים" message="היי ולריה , אשמח לראות עוד סרטוני UGC"/>
+    <div className={styles.description}>וזו רק טעימה קטנה מתוך עשרות סרטונים..</div>
+    <CustomButton text="לחץ כאן לעוד סרטונים" href="https://valeriaremydovsky.my.canva.site/valeriaremydovsky-ugc"/>
     </>
     }
     export default NewImagesGrid

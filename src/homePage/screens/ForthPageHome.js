@@ -130,7 +130,6 @@ const ForthPageHome=()=>{
   <CustomButton text="אני רוצה להכנס לרשימה הזו" message="היי ולריה, אשמח לשמוע עוד על שירות ה UGC "/>
 
 
-
   
     </>
 }
