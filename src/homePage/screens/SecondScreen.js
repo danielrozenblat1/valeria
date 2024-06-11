@@ -11,6 +11,7 @@ import result9 from "../../images/ולריה רמידובסקי לקוחות מ�
 import result10 from "../../images/ולריה רמידובסקי לקוחות ממליצים 10.PNG"
 import result11 from "../../images/ולריה רמידובסקי לקוחות ממליצים 11.PNG"
 import result12 from "../../images/ולריה רמידובסקי לקוחות ממליצים 12.PNG"
+import result14 from "../../images/ולריה רמידובסקי לקוחות ממליצים 14.png"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick"
@@ -43,6 +44,10 @@ const SecondScreenHome=()=>{
           {
             type: 'image',
             src: result9,
+          },
+          {
+            type: 'image',
+            src: result14,
           },
           {
               type: 'image',
